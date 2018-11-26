@@ -1,0 +1,14 @@
+div a img {
+    width: 200px;
+    height: 200px;
+}
+
+div img {
+    height: 200px;
+    width: 200px;
+}
+
+.imgthumbnail {
+    height: 200px;
+    width:200px;
+}
