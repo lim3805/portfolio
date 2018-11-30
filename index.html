@@ -2,11 +2,13 @@
 <html>
     <head>
         <title>Title</title>
+        <!–– This set of code links the bootstrap and ensures that it is referenced to the HTML file ––>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="bootstrap-4.1.2-dist/css/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
     <body>
+        <!–– This entire container's code allows the navbar to function properly ––>
         <header class="container">
             <div>
                 <nav class="nav nav-pills nav-fill">
@@ -20,12 +22,13 @@
         </header>
         <div>
             <div class="jumbotron">
+                <!–– Jumbotron with a short excerpt from the About Me page, where "Continue reading..." directs the user to the About Me page ––>
                 <h1>Jericho Lim's Portfolio</h1>
-                <p1>I am currently a senior attending Dublin High School. I am enrolled in other courses such as animation and civics. I enjoy games, playing basketball, and hanging out with friends. 
-                I plan on attending college to earn a degree in computer science and obtaining a job within this field.</p1>
+                <p1>I am currently a senior attending Dublin High School, and I plan on attending college to earn a degree in computer science and obtaining a job within this field.</p1>
                 <a href="Lim_AboutMe.html">Continue reading...</a>
             </div>
         </div>
+<!–– Next two container codes allow the cards to function properly and flex, displaying small bits of information from other pages such as the Resume page and the Projects page ––>
 <div class="container">
     <div class="row">
         <div class="col-sm-6">
@@ -67,7 +70,7 @@
                     </strong>
                     <p3 class="card-body">Currently enrolled in Dublin High School, set to graduate with the class of 2019.</p3>
                     <a class="card-body" href="Lim_Resume.html">Continue reading...</a>
-                    <img class="card-img-right" style='max-width:250px; max-height:250px' src="Images/profile.jpg">
+                    <img class="card-img-right" style='max-width:250px; max-height:250px' src="Images/dhs.jpg">
                 </div>
             </div>
         </div>
@@ -78,7 +81,7 @@
                         <p class="card-body">Projects</p>
                         <p2 class="card-body">MIT App Inventor Project</p2>
                     </strong>
-                    <p3 class="card-body">Created an app in MIT App Inventor using certain functions to produce a multiple choice quiz,</p3>
+                    <p3 class="card-body">Created an app in MIT App Inventor using certain functions to produce a multiple choice quiz.</p3>
                     <a class="card-body" href="Lim_Projects.html">Continue reading...</a>
                     <img class="card-img-right" style='max-width:250px; max-height:250px' src="Images/MIT.png">
                 </div>
@@ -86,13 +89,14 @@
             </div>
         </div>
         </div>
+        <!–– Footer that seals the bottom portion of the page with image hyperlinks, one directing to the Dublin High School website and the other containg a mail prompt  ––>
         <footer>
             <div class="jumbotron">
                 <a href="https://www.dublin.k12.ca.us/dhs">
-                    <img src="Images/dhs.jpg">
+                    <img src="Images/dublin.png">
                 </a>
                 <a href="mailto:lim3805@mydusd.org?subject=">
-                    <img src="Images/mail-480.png">
+                    <img src="Images/mail.png">
                 </a>
             </div>
         </footer>
