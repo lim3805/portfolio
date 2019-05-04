@@ -5,3 +5,8 @@
 .jumbotron {
     background-image: url(Images/jumbotron-image.jpg);
 }
+
+.center img {
+    height: 500px;
+    width:500px;
+}
